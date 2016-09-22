@@ -43,7 +43,7 @@ public class Model {
         noteRecord.setCellTel1(cell1);
     }
     public void setNoteRecordCellTel2(String cell2) {
-        noteRecord.setCellTel1(cell2);
+        noteRecord.setCellTel2(cell2);
     }
     public void setNoteRecordSkype(String skype) {
         noteRecord.setSkype(skype);

@@ -1,6 +1,7 @@
 package ua.epam.Entities;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 
 /**
@@ -19,11 +20,10 @@ public class NoteRecord {
     private String email;
     private String skype;
     private ArrayList<String> address;
-
-    private String creationDate;
-    private String lastChangesDate;
 //    private Date creationDate;
 //    private Date lastChangesDate;
+    private String creationDate;
+    private String lastChangesDate;
 
     public String getName() {
         return name;
@@ -81,14 +81,6 @@ public class NoteRecord {
         return lastChangesDate;
     }
 
-//    public Date getCreationDate() {
-//        return creationDate;
-//    }
-//
-//    public Date getLastChangesDate() {
-//        return lastChangesDate;
-//    }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -145,14 +137,6 @@ public class NoteRecord {
         this.lastChangesDate = lastChangesDate;
     }
 
-//    public void setCreationDate(Date creationDate) {
-//        this.creationDate = creationDate;
-//    }
-//
-//    public void setLastChangesDate(Date lastChangesDate) {
-//        this.lastChangesDate = lastChangesDate;
-//    }
-
     @Override
     public String toString() {
         return "NoteRecord{" +
@@ -167,9 +151,9 @@ public class NoteRecord {
                 ", cellTel2='" + cellTel2 + '\'' +
                 ", email='" + email + '\'' +
                 ", skype='" + skype + '\'' +
-                ", address=" + address +
-                ", creationDate=" + creationDate +
-                ", lastChangesDate=" + lastChangesDate +
+                ", address=" + address.toString() +
+                ", creationDate='" + creationDate + '\'' +
+                ", lastChangesDate='" + lastChangesDate + '\'' +
                 '}';
     }
 }

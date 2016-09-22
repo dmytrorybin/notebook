@@ -8,8 +8,6 @@ import java.util.ArrayList;
 public class View {
     private ArrayList<String> outputList = new ArrayList<>();
 
-    public static final String INVALID_MESSAGE = "Wrong Input, Try again";
-
     public View() {
         createOutputMessages();
     }
@@ -40,8 +38,6 @@ public class View {
         outputList.add("Input street: ");
         outputList.add("Input building number: ");
         outputList.add("Input apartment number: ");
-        outputList.add("Input creation date: ");
-        outputList.add("Input modify date: ");
 
     }
 }
