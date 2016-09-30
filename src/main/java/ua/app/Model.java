@@ -1,4 +1,4 @@
-package ua.epam;
+package ua.app;
 
 import ua.epam.Entities.NoteRecord;
 

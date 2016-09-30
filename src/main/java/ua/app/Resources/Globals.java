@@ -1,4 +1,4 @@
-package ua.epam.Resources;
+package ua.app.Resources;
 
 /**
  * Created by Dmytro_Rybin on 9/21/2016.

@@ -1,4 +1,4 @@
-package ua.epam.Entities;
+package ua.app.Entities;
 
 import java.util.ArrayList;
 import java.util.Arrays;

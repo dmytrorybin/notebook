@@ -1,4 +1,4 @@
-package ua.epam;
+package ua.app;
 
 import ua.epam.Resources.Globals;
 import ua.epam.Resources.Groups;
